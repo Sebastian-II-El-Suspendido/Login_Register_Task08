@@ -44,7 +44,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="40dp"
-                    android:text="@string/username"
+                    android:text="@string/email"
                     android:textColor="@color/white" />
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -55,7 +55,7 @@
                     android:layout_span="2">
 
                     <EditText
-                        android:id="@+id/editTextUsername"
+                        android:id="@+id/editTextEmail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:drawablePadding="10dp"
@@ -116,7 +116,7 @@
                     android:textColor="@color/white" />
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/radioButtonH"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -124,7 +124,7 @@
                     android:textColor="@color/white" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/radioButtonM"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="120dp"
@@ -150,7 +150,7 @@
 
 
                 <Spinner
-                    android:id="@+id/spnClase"
+                    android:id="@+id/spinnerNationality"
                     style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
@@ -176,7 +176,7 @@
                     android:textColor="@color/white" />
 
                 <CheckBox
-                    android:id="@+id/checkBox"
+                    android:id="@+id/checkBoxTennis"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -184,7 +184,7 @@
                     android:textColor="@color/white" />
 
                 <CheckBox
-                    android:id="@+id/checkBox2"
+                    android:id="@+id/checkBoxFootball"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="40dp"
@@ -215,7 +215,7 @@
                     android:layout_marginEnd="40dp"
                     android:layout_span="2">
                     <EditText
-                        android:id="@+id/EditTextCV"
+                        android:id="@+id/editTextCV"
                         android:layout_width="match_parent"
                         android:layout_height="149dp"
                         android:autofillHints=""
@@ -226,6 +226,23 @@
                         android:textColor="@color/white"
                         tools:ignore="SpeakableTextPresentCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
+            </TableRow>
+
+            <!--Warning message-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_span="3"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/warning"
+                    android:visibility="gone"/>
             </TableRow>
 
             <!--SIGN IN BUTTOM-->

@@ -15,4 +15,5 @@
     <string name="football">Football</string>
     <string name="tennis">Tennis</string>
     <string name="todo">TODO</string>
+    <string name="email">Email</string>
 </resources>
