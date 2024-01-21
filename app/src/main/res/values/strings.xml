@@ -7,7 +7,12 @@
 
 
     <string name="sex">Sex</string>
-    <string name="nationality">Nationality</string>
+    <string name="nationality">Nationalidad</string>
+    <string-array name="nationality_array">
+        <item>España</item>
+        <item>Francia</item>
+        <item>Alemania</item>
+    </string-array>
     <string name="hobbies">Hobbies</string>
     <string name="cv">CV</string>
     <string name="men">M</string>

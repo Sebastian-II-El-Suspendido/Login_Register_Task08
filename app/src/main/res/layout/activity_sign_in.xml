@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textColor="@color/white"
     tools:context=".SignInActivity">
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -61,6 +62,7 @@
                         android:drawablePadding="10dp"
                         android:importantForAutofill="no"
                         android:inputType="text"
+                        android:textColor="@color/white"
                         tools:ignore="SpeakableTextPresentCheck" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -95,6 +97,7 @@
                         android:drawablePadding="10dp"
                         android:importantForAutofill="no"
                         android:inputType="textPassword"
+                        android:textColor="@color/white"
                         android:textColorHighlight="@color/primaryColor"
                         android:textColorHint="@color/primaryColor"
                         tools:ignore="SpeakableTextPresentCheck" />
@@ -138,7 +141,9 @@
             <!--COUNTRY-->
             <TableRow
                 android:layout_width="0dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:textColor="@color/white">
+
 
                 <TextView
                     android:id="@+id/textView4"
@@ -151,7 +156,7 @@
 
                 <Spinner
                     android:id="@+id/spinnerNationality"
-                    style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
+                    style="@android:style/Widget.Holo.ActionBar.Solid"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginStart="20dp"
@@ -159,7 +164,10 @@
                     android:layout_span="2"
                     android:backgroundTint="@color/primaryColor"
                     android:backgroundTintMode="screen"
-                    android:textColor="@color/white" />
+                    android:contextClickable="false"
+
+
+                    />
             </TableRow>
 
             <!--HOBBY-->

@@ -2,11 +2,14 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
+    id("kotlin-android-extensions")
 }
 
 android {
     namespace = "com.example.task08_guiloginyregistro"
     compileSdk = 34
+
+
 
     defaultConfig {
         applicationId = "com.example.task08_guiloginyregistro"
@@ -34,6 +37,11 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+
+    buildFeatures{
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -43,6 +51,7 @@ dependencies {
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-auth-ktx:22.3.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
