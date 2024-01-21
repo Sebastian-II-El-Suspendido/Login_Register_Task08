@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "352946441982",
+    "project_id": "loginyregistro-1cbfa",
+    "storage_bucket": "loginyregistro-1cbfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352946441982:android:4f07678e157d8da6205faf",
+        "android_client_info": {
+          "package_name": "com.example.task08_guiloginyregistro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPxRy9N4_ZnYoNwp2yQxmMCDOvq0by4MU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
